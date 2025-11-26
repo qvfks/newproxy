@@ -1,0 +1,13 @@
+{
+    "name": "roblox-proxy-netlify",
+    "description": "A Roblox proxy adapted for Netlify Functions.",
+    "version": "1.0.0",
+    "author": "pyxfluff <business@notpyx.me>, iiPython <ben@iipython.dev>",
+    "scripts": {
+        "serve": "netlify dev",
+        "deploy": "netlify deploy --prod"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.2"
+    }
+}
